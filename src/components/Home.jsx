@@ -10,10 +10,10 @@ export default function home ()
           <p>Explore our collections for men and women.</p>
           <div className="ctaButton">
             <Link to="/category/men" className="cta">
-              Hombre
+              Men
             </Link>
             <Link to="/category/women" className="cta">
-              Mujer
+              Women
             </Link>
           </div>
         </section>
