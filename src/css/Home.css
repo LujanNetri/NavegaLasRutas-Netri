@@ -53,38 +53,6 @@
     background-color: rgb(80, 50, 50);
 }
   
-.featured 
-{
-    margin-top: 6rem;
-}
-  
-.featured h3 
-{
-    font-size: 2.5rem;
-    margin-bottom: 2rem;
-}
-  
-.featuredGrid 
-{
-    display: flex;
-    gap: 2rem;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-  
-.featuredGrid img 
-{
-    width: 250px;
-    border-radius: 0.75rem;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-    transition: transform 0.3s ease;
-}
-  
-.featuredGrid img:hover 
-{
-    transform: scale(1.05);
-}
-  
 .brandMessage 
 {
     margin-top: 6rem;

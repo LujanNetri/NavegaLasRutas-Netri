@@ -18,14 +18,12 @@ export default function home ()
           </div>
         </section>
 
-        <section className="featured">
-          <h3>Destacados</h3>
-          <div className="featuredGrid">
-            <img src="/imagenes/men/men_product_4.jpg" alt="destacado" />
-            <img src="/imagenes/men/men_product_5.jpg" alt="destacado" />
-            <img src="/imagenes/women/women_product_2.jpg" alt="destacado" />
-            <img src="/imagenes/women/women_product_4.jpg" alt="destacado" />
-          </div>
+        <section className="brandMessage">
+          <h3>More than just clothing</h3>
+          <p>
+            At Modela, we believe that clothing not only dresses you, but also
+            speaks for you. Accesible, modern fashion with attitude
+          </p>
         </section>
 
         <section className="categoriesPreview">
@@ -37,14 +35,6 @@ export default function home ()
             <h3>For her</h3>
             <Link to="/category/women">View collection</Link>
           </div>
-        </section>
-
-        <section className="brandMessage">
-          <h3>More than just clothing</h3>
-          <p>
-            At Modela, we believe that clothing not only dresses you, but also
-            speaks for you. Accesible, modern fashion with attitude
-          </p>
         </section>
       </div>
     );
