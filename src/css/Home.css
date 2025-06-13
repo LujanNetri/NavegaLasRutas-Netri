@@ -1,0 +1,149 @@
+.home 
+{
+    margin-top: 4rem;
+    padding: 6rem 3rem;
+    text-align: center;
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+  
+  .hero 
+{
+    background: url('/imagenes/index/cover1_image.jpeg') center/cover no-repeat;
+    color: white;
+    padding: 6rem 2rem;
+    border-radius: 1rem;
+}
+  
+.hero h2 
+{
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+  
+.hero p 
+{
+    font-size: 1.5rem;
+}
+  
+.ctaButton
+{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+  
+.cta 
+{
+    background-color: rgb(110, 72, 72);
+    color: white;
+    padding: 1rem 2.5rem;
+    text-decoration: none;
+    border-radius: 0.5rem;
+    font-weight: 600;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+}
+  
+.cta:hover 
+{
+    background-color: rgb(80, 50, 50);
+}
+  
+.featured 
+{
+    margin-top: 6rem;
+}
+  
+.featured h3 
+{
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+  
+.featuredGrid 
+{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+  
+.featuredGrid img 
+{
+    width: 250px;
+    border-radius: 0.75rem;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+  
+.featuredGrid img:hover 
+{
+    transform: scale(1.05);
+}
+  
+.brandMessage 
+{
+    margin-top: 6rem;
+    font-style: italic;
+    font-size: 1.4rem;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #333;
+}
+  
+.categoriesPreview 
+{
+    display: flex;
+    gap: 2rem;
+    margin-top: 5rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+  
+.previewMen,
+.previewWomen 
+{
+    flex: 1;
+    min-width: 280px;
+    padding: 4rem 2rem;
+    border-radius: 1rem;
+    color: white;
+    text-shadow: 1px 1px 5px black;
+    background-size: cover;
+    background-position: center;
+    font-size: 1.5rem;
+    transition: transform 0.3s ease;
+}
+  
+.previewMen:hover,
+.previewWomen:hover 
+{
+    transform: scale(1.02);
+}
+  
+.previewMen 
+{
+    background-image: url('/imagenes/index/outfit_1.jpg');
+}
+  
+  .previewWomen {
+    background-image: url('/imagenes/index/dress2.jpg');
+  }
+  
+  .previewMen a,
+  .previewWomen a {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.8rem 1.5rem;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    text-decoration: none;
+    border-radius: 0.5rem;
+    font-size: 1.1rem;
+  }
+  

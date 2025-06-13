@@ -1,0 +1,85 @@
+.detailContainer
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin: 6rem auto 3rem auto;
+    padding: 2rem;
+    max-width: 1000px;
+    justify-content: center;
+    background-color: #fefefe;
+    border-radius: 16px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);    
+}
+
+.imageSection img 
+{
+    max-width: 350px;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+.infoSection 
+{
+    flex: 1;
+    min-width: 250px;
+}
+
+.infoSection h2
+{
+    margin-bottom: 0.5rem;
+    font-size: 2rem;
+}
+
+.category
+{
+    font-style: italic;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.description 
+{
+    margin-bottom: 1rem;
+    line-height: 1.5;
+    color: #444;
+}
+
+.price 
+{
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.quantityCart 
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+  
+.quantityCart input 
+{
+    width: 90px;
+    padding: 0.3rem;
+    font-size: 1rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+.addCartBtn button 
+{
+    padding: 0.5rem 1rem;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.addCartBtn:hover
+{
+    background-color: #333;
+}
